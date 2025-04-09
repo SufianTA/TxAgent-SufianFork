@@ -1,0 +1,8 @@
+vllm
+gradio
+streamlit
+requests
+tooluniverse
+transformers>=4.24.0
+sentence-transformers
+torch>=1.12.1
