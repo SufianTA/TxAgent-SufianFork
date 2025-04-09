@@ -14,7 +14,6 @@ else:
 
 
 # --- Load logo (if available) and display header ---
-logo_path = "logo.png"
 header_cols = st.columns([0.15, 0.85])  # allocate space for logo vs title
 if os.path.exists(logo_path):
     header_cols[0].image(logo_path, width=80)  # display TxAgent logo
